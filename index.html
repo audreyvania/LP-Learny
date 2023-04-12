@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<h lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Vnya</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <!---------------------------------- HEADER ---------------------------------->
+
+    <header class="header">
+      <section class="flex">
+        <!-- Navbar -->
+        <a href="#" class="logo">
+          <img src="https://i.ibb.co/tqZ7Tmg/logo.png" alt="Learny logo" />
+        </a>
+
+
+        <nav class="navbar">
+          <a href="#">Home</a>
+          <a href="#category">Category</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-btn">
+          <button id="signup"> Sign Up</button>
+          <button id="login"> Log In</button>
+        </div>
+      </section>
+    </header>
+
+    <!-- END HEADER -->
+
+    <main>
+      <!---------------------------------- HERO ---------------------------------->
+
+      <section id="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="hero-title">
+              <span id="title-1"> EXPLORE YOUR KNOWLEDGE </span>
+              <br />
+              <span id="title-2"> WITH LEARNY </span>
+            </h1>
+
+            <p class="hero-text">Using various learning methods.</p>
+          </div>
+
+          <div class="hero-banner">
+            <img
+              src="https://i.ibb.co/tKFNt7S/hero-banner.png"
+              alt="hero-banner"
+            />
+          </div>
+        </div>
+      </section>
+
+
+      <!---------------------------------- CATEGORY ---------------------------------->
+
+      <section id="category">
+        <div class="container">
+          <div class="category-content">
+            <h1 class="category-title">
+              <span id="title-1"> LEARNING </span>
+              <span id="title-2"> CATEGORY </span>
+            </h1>
+            <p class="category-desc">Learny Provides 3 learning Categories</p>
+          </div>
+        </div>
+
+        <div class="learning-categories">
+          <div class="container">
+            <div class="category-item">
+              <img
+                src="https://i.ibb.co/6nF64nQ/ctg-e-book.png"
+                alt="E-book"
+                class="category-item-img"
+              />
+              <div class="category-item-desc">
+                <h2 class="category-item-title">E-Book</h2>
+                <p class="category-item-desc">
+                  Explore our extensive collection of E-Books on various topics.
+                </p>
+              </div>
+            </div>
+
+            <div class="category-item">
+              <img
+                src="https://i.ibb.co/KNmDfZh/ctg-article.png"
+                alt="Article"
+                class="category-item-img"
+              />
+              <div class="category-item-desc">
+                <h2 class="category-item-title">Article</h2>
+                <p class="category-item-desc">
+                  Read informative and educational articles written by experts.
+                </p>
+              </div>
+            </div>
+
+            <div class="category-item">
+              <img
+                src="https://i.ibb.co/RjkVVvC/ctg-video.png"
+                alt="Videos"
+                class="category-item-img"
+              />
+              <div class="category-item-desc">
+                <h2 class="category-item-title">Video</h2>
+                <p class="category-item-desc">
+                  Watch instructional videos to enhance your learning
+                  experience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!---------------------------------- ABOUT ---------------------------------->
+
+      <section id="about">
+        <div class="container">
+          <div class="about-title">
+            <span class="blue-text"> WHAT </span>
+            <span class="black-text"> IS </span>
+            <img
+              src="https://i.ibb.co/tqZ7Tmg/logo.png"
+              alt="Learny logo"
+              class="logo-about"
+            />
+            <span class="black-text"> ? </span>
+          </div>
+        </div>
+
+        <p id="description">
+          “Learny is an online platform that aims to improve students' literacy
+          skills by providing easy
+          <br />
+          and fast access to various literacy resources.At Learny, we believe
+          that literacy is the key <br />
+          to success in studies and in life. That's why we are committed to
+          providing a collection of <br />
+          high-quality and varied literacy resources to help students gain a
+          better understanding of <br />
+          the material they are studying.”
+        </p>
+      </section>
+
+      <!---------------------------------- CONTACT ---------------------------------->
+
+      <section id="contact">
+        <div id="desc">
+          <span id="title-1"> CONTACT </span>
+          <span id="title-2"> US </span>
+        </div>
+
+        <form id="form">
+          <input type="text" id="name" placeholder="Name" />
+          <input type="text" id="city" placeholder="City" />
+          <input type="email" id="email" placeholder="Email" />
+          <input type="number" id="zip-code" placeholder="Zip Code" />
+        
+          <label for="status" id="check">
+            Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai.
+          </label> 
+          
+          <input type="checkbox" id="status" />
+                     
+        
+          <button type="submit" id="submit-form">
+            Submit
+          </button>
+          
+          <div id="warning"></div>
+        </form>
+        
+      </section>
+    </body>
+
+      <!---------------------------------- FOOTER  -------------------------------------->
+      
+      <section id="footer">
+        <div id="logo">
+          <img src="https://i.ibb.co/tqZ7Tmg/logo.png" alt="Learny logo" />
+          <h3>An Online Platform That Aims To 
+            <br> Improve Students' Literacy Skills</h3>
+        </div>
+
+        <div id="menu" class="menu-container">
+          <ul class="menu-item">
+            <h2>Pages</h2>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#category">Category</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="menu-item">
+            <h2>Category</h2>
+            <li><a href="#category">E-Book</a></li>
+            <li><a href="#category">Article</a></li>
+            <li><a href="#category">Video</a></li>
+          </ul>
+          <ul class="menu-item">
+            <h2>Contact</h2>
+            <li><a href="#contact">(021) 444-6254</a></li>
+            <li><a href="#contact">learny@gmail.com</a></li>
+            <li><a href="#contact">Jakarta, Indonesia</a></li>
+          </ul>
+        </div>
+        
+
+        <div id="partner">
+          <h2>Challenge Partner</h2>
+          <a id="link" href="https://skilvul.com">
+            <img src="https://i.ibb.co/b6C5V3G/logo-skilvul.png" alt="logo-skilvul" width="110" class="partner-img">
+          </a>
+          <br>
+          <a id="link" href="https://skilvul.com">Skilvul</a>
+        </div>
+      </section>
+    </main>
+
+  <!---------------------------------- FOOTER BOTTOM -------------------------------------->
+  <footer>
+  <div class="footer-bottom">
+    <p>&copy; 2023 Learny. All rights reserved.</p>
+  </div>
+</footer>
+  
+</html>
