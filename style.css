@@ -450,7 +450,7 @@ section {
   padding: 10px;
   border: solid;
   border-radius: 10px;
-  margin-bottom: 3vh;
+  margin-bottom: 3rem;
 }
 
 #form input:focus {
@@ -461,12 +461,10 @@ section {
   transition: transform 0.3s ease-in-out;
 }
 
-#check {
+.form-checkbox {
   font-size: 1.3rem;
   padding-bottom: 3rem;
-  margin-right: 10px;
 }
-
 
 #submit-form {
   background-color: #66b1e2;
@@ -560,7 +558,7 @@ section {
 
 
 /*-----------------------------------*\
-  #FOOTER
+  #FOOTER BOTTOM
 \*-----------------------------------*/
 
 
